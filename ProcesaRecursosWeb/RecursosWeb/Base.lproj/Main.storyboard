@@ -85,6 +85,13 @@
                                     <constraint firstAttribute="width" constant="150" id="THp-CG-V3L"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujg-IB-c7p">
+                                <rect key="frame" x="274.5" y="77" width="51" height="30"/>
+                                <state key="normal" title="Limpiar"/>
+                                <connections>
+                                    <action selector="limpiarBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wRq-y8-hGx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -101,10 +108,12 @@
                             <constraint firstItem="wqB-qe-2ng" firstAttribute="centerX" secondItem="pn0-vR-fuF" secondAttribute="centerX" id="eiB-tl-haI"/>
                             <constraint firstItem="NlJ-Uo-t6Z" firstAttribute="top" secondItem="HHY-jw-9dm" secondAttribute="bottom" constant="9" id="fB2-Vf-MPQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zod-L7-E1t" secondAttribute="bottom" constant="67" id="fC1-PT-bHX"/>
+                            <constraint firstItem="Ujg-IB-c7p" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="57" id="h8b-t5-rZw"/>
                             <constraint firstItem="wqB-qe-2ng" firstAttribute="leading" secondItem="d2n-gd-fSg" secondAttribute="trailing" constant="1" id="hLg-1y-WCW"/>
                             <constraint firstItem="nYS-tW-oEg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jQc-1p-amH"/>
                             <constraint firstItem="pn0-vR-fuF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nPd-DS-yP2"/>
                             <constraint firstItem="HHY-jw-9dm" firstAttribute="top" secondItem="wqB-qe-2ng" secondAttribute="bottom" constant="15" id="qmA-E5-nWc"/>
+                            <constraint firstItem="Ujg-IB-c7p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="si5-tE-Ru0"/>
                             <constraint firstItem="pn0-vR-fuF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="tcG-un-5nh"/>
                             <constraint firstItem="NlJ-Uo-t6Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vcZ-hw-ZWP"/>
                             <constraint firstItem="d2n-gd-fSg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="xyW-ly-RxN"/>

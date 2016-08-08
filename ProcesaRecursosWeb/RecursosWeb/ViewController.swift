@@ -27,6 +27,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         resultado.text = ""
     }
     
+    @IBAction func limpiarBtn(sender: AnyObject) {
+        isbn.text = ""
+    }
+    
     @IBAction func textFieldDidEndEditing(sender: UITextField) {
         sender.resignFirstResponder()
         let urls = "https://openlibrary.org/api/books?jscmd=data&format=json&bibkeys=ISBN:" + isbn.text!
